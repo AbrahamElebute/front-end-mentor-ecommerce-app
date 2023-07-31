@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  font-family: "Kumbh Sans", sans-serif;
+}
+p {
+  font-size: 16px;
+}
+.wapper {
+  padding-inline: 10%; /* Default padding for all screen sizes */
+}
+
+/* Media query for screens with a maximum width of 768px (e.g., tablets and smaller devices) */
+@media (max-width: 873px) {
+  .wapper {
+    padding-inline: 5%; /* Adjusted padding for smaller screens */
+  }
+}
+
+/* Media query for screens with a maximum width of 480px (e.g., smartphones) */
+@media (max-width: 480px) {
+  .wapper {
+    padding-inline: 2%; /* Further adjusted padding for smaller screens */
+  }
+}
