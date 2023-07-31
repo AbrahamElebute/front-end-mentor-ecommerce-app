@@ -11,7 +11,7 @@ const Navbar = () => {
   };
   return (
     <nav className={`wapper`}>
-      <div className="border-b-2 py-4 md:py-6  flex items-center justify-between overflow-hidden border-neutral-light-grayish-blue w-full">
+      <div className="border-b-2 py-4 px-3 md:px-0 md:py-6  flex items-center justify-between overflow-hidden border-neutral-light-grayish-blue w-full">
         <div className=" flex items-center gap-5 md:gap-12">
           <button onClick={handle}>
             <img src={iconMenu} alt="" />
