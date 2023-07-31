@@ -26,7 +26,7 @@ const Navbar = () => {
             <ul
               className={`navUl flex flex-col md:flex-row text-black md:text-neutral-grayish-blue gap-4 p-5 pt-12 md:p-0  w-[70%]  h-screen md:h-fit  bg-white md:bg-transparent `}
             >
-              <button className="block md:hidden" onClick={handle}>
+              <button className="block md:hidden mt-12" onClick={handle}>
                 <img src={iconClose} alt="" />
               </button>
               <li className=" block md:after:hidden">
