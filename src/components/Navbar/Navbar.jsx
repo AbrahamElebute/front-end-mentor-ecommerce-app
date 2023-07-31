@@ -22,6 +22,7 @@ const Navbar = () => {
             className={` ${
               navbar ? "navbar-visible" : "navbar-hidden"
             } w-full bg-black/50 md:bg-transparent md:static absolute h-screen md:h-fit md:w-fit bottom-0 left-0`}
+            onClick={handle}
           >
             <ul
               className={`navUl flex flex-col md:flex-row text-black md:text-neutral-grayish-blue gap-4 p-5 pt-12 md:p-0  w-[70%]  h-screen md:h-fit  bg-white md:bg-transparent `}
